@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>拖拽</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-1.11.2.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/caozuo.js"></script>
+</head>
+<body>
+	<div class="continer">
+		<div class="T-content">
+			<div class="l-title left">
+				<p class="">数据聚合</p>
+			</div>
+			<div class="r-title left">
+				<button class="">保存</button>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="L-content left">
+			<div class="work-con">
+				<div class="work-bx">
+					<p class="">
+						工作表
+					</p>
+				</div>
+				<div class="work-continer">
+					<p class="">
+						订单-用户下单数据
+					</p>
+				</div>
+			</div>
+			<div class="work-con">
+				<div class="work-bx">
+					<p class="">
+						字段
+					</p>
+				</div>
+				<div class="work-continer">
+					<div class="serch-bx">
+						<input type="text" class="">
+					</div>
+					<div class="serch-continer">
+						<ul class="serch-ul">
+							<li class="srech-li">
+								<div class="list-bx"id="draggable1">
+									<p class="item">拍下日期</p>
+								</div>
+							</li>
+							<li class="srech-li">
+								<div class="list-bx"id="draggable2">
+									<p class="item">商品价格</p>
+								</div>
+							</li>
+							<li class="srech-li">
+								<div class="list-bx"id="draggable3">
+									<p class="item">商品排名</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="R-content left">
+			<div class="condition">
+				<div class="con-top">
+					<div class="con-one">
+						<div class="con-l left">
+							<p class="">
+								维度
+							</p>
+						</div>
+						<div class="con-r left">
+							<div class="tz" id="target01"></div>
+							<div class="zujian">
+								<div class="zj-RQ" >
+									<div class="xiala">
+										<div id="firstpane" class="menu_list">
+											<div class="title-bx">
+												<p class="menu_head left">拍下日期（按日）</p>
+												<img src="btn_delete.png" alt="" class="left">
+												<p class="clear"></p>
+											</div>
+										    <div style="display:none" class='menu_body' >
+										      <a href="#">按年</a>
+										      <a href="#">按季</a>
+										      <a href="#">按月</a>
+										      <a href="#">按周</a>
+										      <a href="#">按日</a>
+										      <a href="#">按时</a>
+										      <a href="#">按分</a>
+										    </div>
+										</div>
+									</div>
+								</div>
+								<div class="zj-PM">
+									<div class="xiala">
+										<div id="firstpane" class="menu_list">
+											<div class="title-bx">
+												<p class="menu_head left">价格商品（求和）</p>
+												<img src="btn_delete.png" alt="" class="left">
+												<p class="clear"></p>
+											</div>
+										    <div style="display:none" class='menu_body' >
+										      <a href="#">求和</a>
+										      <a href="#">平均值</a>
+										      <a href="#">计数</a>
+										      <a href="#">去重计数</a>
+										      <a href="#">最大值</a>
+										      <a href="#">最小值</a>
+										    </div>
+										</div>
+									</div>
+								</div>
+								<div class="zj-JG">
+									<p class="">价格</p>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="con-one">
+						<div class="con-l left">
+							<p class="">
+								数值
+							</p>
+						</div>
+						<div class="con-r left" id="target02">
+							
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="con-cont">
+					<div class="con-cont-one">
+						<div class="work-name left">
+							<div class="wo-na-bx">
+								<lable class='lable'>工作表名称<input type="text"></lable>
+							</div>
+						</div>
+						<div class="work-file left">
+							<div class="wo-fi-bx">
+								<p class="">所属文件夹：管易ERP测试<a href="" class="">修改</a></p>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="con-cont-two">
+						<div class="num-bx">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</body>
+</html>

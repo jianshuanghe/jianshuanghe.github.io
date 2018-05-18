@@ -1,0 +1,315 @@
+.left{
+	float: left;
+}
+.clear{
+	clear: both;
+}
+ul,li{ padding:0;margin:0;list-style:none}
+.continer{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    background: #f9f9f9;
+}
+.T-content{
+	position: relative;
+    width: 100%;
+    background: #ccc;
+}
+.T-content .l-title{
+	position: relative;
+	width: 50%;
+}
+.T-content .l-title>p{
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 39px;
+}
+.T-content .r-title{
+	position: relative;
+	width: 50%;	
+}
+.T-content .r-title>button{
+position: relative;
+    font-size: 16px;
+    line-height: 25px;
+    float: right;
+    border: 0;
+    margin-right: 34px;
+    border-radius: 4px;
+    background: #ccc;
+    margin-top: 21px;
+}
+.L-content{
+    position: relative;
+    width: 200px;
+    background: #f3f3f3;
+}
+.L-content .work-con{
+	position: relative;
+	padding-left: 5px;
+}
+.L-content .work-con .work-bx{
+	position: relative;
+}
+.L-content .work-con .work-bx>p{
+    position: relative;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.L-content .work-con .work-continer{
+	position: relative;
+}
+.L-content .work-con .work-continer>p{
+    position: relative;
+    font-size: 14px;
+    line-height: 14px;
+}
+.L-content .work-con .work-continer .serch-bx{
+	position: relative;
+	width: 80%;
+}
+.L-content .work-con .work-continer .serch-bx>input{
+position: relative;
+    width: 90%;
+    left: 10%;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid#ccc;
+    background: #f3f3f3;
+    outline: none;
+}
+.L-content .work-con .work-continer .serch-continer{
+	position: relative;
+	width: 100%;
+}
+.serch-ul{
+	position: relative;
+	width: 100%;
+	list-style: none;
+}
+.serch-ul>li{
+	position: relative;
+	width: 100%;
+	cursor:pointer;
+}
+.serch-ul>li .list-bx{
+    position: relative;
+    width: 100%;
+}
+.serch-ul>li .list-bx>p{
+position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+}
+.R-content{
+	position: relative;
+	width: 1000px;
+}
+.condition{
+position: relative;
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.condition .con-top{
+	position: relative;
+	width: 100%;
+}
+.condition .con-top .con-one{
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid#ccc;
+}
+.condition .con-top .con-one .con-l{
+	position: relative;
+	width: 10%;
+}
+.condition .con-top .con-one .con-l>p{
+	position: relative;
+	width: 100%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 20px;	
+}
+.condition .con-top .con-one .con-r{
+	position: relative;
+	width: 80%;
+	height: 50px;
+}
+.condition .con-top .con-one .con-r .tz{
+position: relative;
+    width: 100%;
+    height: 50px;
+}
+.condition .con-top .con-one .con-r .tz .list-bx{
+    position: relative;
+    width: 100%;
+}
+.condition .con-top .con-one .con-r .tz .list-bx>p{
+    position: relative;
+    float: left;
+    padding-right: 24px;
+}
+.condition .con-top .con-one .con-r .tz .list-bx>img{
+    position: relative;
+    float: left;
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 19px;
+    margin-left: -17px;
+}
+.condition .con-top .con-one .con-r .zujian{
+    position: relative;
+    width: 100%;
+}
+.zujian .zj-RQ{
+    position: relative;
+    width: 100%;
+    display: none;
+}
+.zujian .zj-PM{
+    position: relative;
+    width: 100%;
+    display: none;
+}
+.zujian .zj-JG{
+    position: relative;
+    width: 100%;
+    display: none;
+}
+.condition .con-cont{
+	position: relative;
+	width: 100%;
+}
+.condition .con-cont .con-cont-one{
+	position: relative;
+	width: 100%;
+}
+.condition .con-cont .con-cont-one .work-name{
+	position: relative;
+	width: 45%;
+}
+.work-name .wo-na-bx{
+	position: relative;
+	width: 100%;
+}
+.lable{
+position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 52px;
+}
+.lable>input{
+position: relative;
+    width: 64%;
+    left: 2%;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid#ccc;
+    background: #f9f9f9;
+    outline: none;
+}
+.condition .con-cont .con-cont-one .work-file{
+	position: relative;
+	width: 55%;	
+}
+.work-file .wo-fi-bx{
+	position: relative;
+	width: 100%;
+}
+.work-file .wo-fi-bx>p{
+	position: relative;
+	width: 100%;
+	text-align: left;
+    font-size: 16px;
+    line-height: 20px;	
+
+}
+.menu_list{
+    position: relative;
+    width: 200px;
+    z-index: 999;
+    background: #ccc;
+    height: 40px;
+    top: 8px;
+}
+.menu_head{
+    position: relative;
+    width: 90%;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+}
+.title-bx{
+    position: relative;
+    width: 100%;
+}
+.title-bx>p{
+    font-size: 16px;
+    line-height: 7px;
+    text-align: center;
+}
+.title-bx>img{
+position: relative;
+    width: 8%;
+    padding-right: 2%;
+    margin-top: 12px;
+    height: 19px;
+    display: none;
+}
+.menu_body {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    line-height: 38px;
+    border-left: 1px solid #e1e1e1;
+    backguound: #fff;
+    border-right: 1px solid #e1e1e1;
+}
+.menu_body a {
+    display: block;
+    width: 200px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 38px;
+    color: #777777;
+    background: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #e1e1e1;
+}
+.menu_body a:hover {
+    text-decoration: none;
+}
+.menu_body2 {
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    line-height: 38px;
+    border-left: 1px solid #e1e1e1;
+    backguound: #fff;
+    border-right: 1px solid #e1e1e1;
+}
+.menu_body2 a {
+    display: block;
+    width: 200px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 38px;
+    color: #777777;
+    background: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #e1e1e1;
+}
+.menu_body2 a:hover {
+    text-decoration: none;
+}
